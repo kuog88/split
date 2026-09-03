@@ -1835,7 +1835,7 @@ function App() {
     className: "w-full bg-transparent font-bold text-[18px] text-gray-900 px-1 py-1 rounded-lg\r focus:outline-none focus:bg-gray-50 focus:ring-2 focus:ring-indigo-500"
   }), /*#__PURE__*/React.createElement("div", {
     className: "text-[13.5px] text-gray-400 px-1 tabular truncate"
-  }, "\u4EE3\u588A ", fmtKRW(stats.paid[m.id] || 0), "\u3000\xB7", expenses.filter(e => e.participants.indexOf(m.id) !== -1).length, " \u7B46\u5206\u6524")), /*#__PURE__*/React.createElement("button", {
+  }, "\u4EE3\u588A ", fmtKRW(stats.paid[m.id] || 0), "\u3000\xB7\u3000", expenses.filter(e => e.participants.indexOf(m.id) !== -1).length, " \u7B46\u5206\u6524")), /*#__PURE__*/React.createElement("button", {
     onClick: () => cycleColor(m.id),
     title: "\u63DB\u984F\u8272",
     className: "press w-11 h-11 rounded-xl shrink-0 border-2 border-white shadow",
